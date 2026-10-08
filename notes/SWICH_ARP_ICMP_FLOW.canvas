@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"b389ae3b45dea237","type":"file","file":"Images/SWITCHES/SWITCH_step5.png","x":3232,"y":-217,"width":427,"height":276},
+		{"id":"67a7d3887e730273","type":"file","file":"Images/SWITCHES/SWITCH_step5_green_envelope.png","x":3207,"y":-826,"width":478,"height":352},
+		{"id":"2b69795c1ec95390","type":"file","file":"Images/SWITCHES/SWITCH_step4.png","x":2286,"y":-211,"width":432,"height":270},
+		{"id":"184e6d5c4668f11f","type":"file","file":"Images/SWITCHES/SWITCH_step4_green_envelope.png","x":2214,"y":-826,"width":576,"height":352,"color":"4"},
+		{"id":"53fedb52fef90f96","type":"file","file":"Images/SWITCHES/SWITCH_step1.png","x":-744,"y":-211,"width":403,"height":270},
+		{"id":"aecfb08453236b28","type":"file","file":"Images/SWITCHES/SWITCH_step1_green_envelope.png","x":-796,"y":-826,"width":506,"height":352,"color":"4"},
+		{"id":"18ce89c24cd6a3ef","type":"file","file":"Images/SWITCHES/SWITCH_step2.png","x":219,"y":-217,"width":380,"height":270},
+		{"id":"016e0b9be06ebea1","type":"file","file":"Images/SWITCHES/SWITCH_step2_green_envelope.png","x":145,"y":-826,"width":529,"height":352,"color":"4"},
+		{"id":"41b454741a1bea39","type":"file","file":"Images/SWITCHES/SWITCH_step3.png","x":1220,"y":-211,"width":346,"height":270},
+		{"id":"57fc6150e27a0c05","type":"file","file":"Images/SWITCHES/SWITCH_step3_green_envelope.png","x":1158,"y":-826,"width":471,"height":352,"color":"4"},
+		{"id":"0ace73ab0abc31b4","type":"file","file":"Images/SWITCHES/SWITCH_step3_green_envelope_terminated.png","x":1161,"y":383,"width":468,"height":278,"color":"1"},
+		{"id":"587f2d443b9de99e","type":"file","file":"Images/SWITCHES/SWITCH_step4_CAM_table.png","x":2318,"y":443,"width":400,"height":158}
+	],
+	"edges":[
+		{"id":"ddf97a7a11758146","fromNode":"53fedb52fef90f96","fromSide":"right","toNode":"18ce89c24cd6a3ef","toSide":"left"},
+		{"id":"823472cc3af4e5da","fromNode":"18ce89c24cd6a3ef","fromSide":"top","toNode":"016e0b9be06ebea1","toSide":"bottom","color":"4","label":"switch prepares to make a broadcast"},
+		{"id":"2b12eb57904af065","fromNode":"18ce89c24cd6a3ef","fromSide":"right","toNode":"41b454741a1bea39","toSide":"left"},
+		{"id":"8ca33677127d0378","fromNode":"41b454741a1bea39","fromSide":"top","toNode":"57fc6150e27a0c05","toSide":"bottom","color":"4","label":"PC3 receives the packet and prepares a response"},
+		{"id":"ab63f10be4f2d04e","fromNode":"41b454741a1bea39","fromSide":"bottom","toNode":"0ace73ab0abc31b4","toSide":"top","color":"1","label":"PC2 dropped the ARP request because the MAC address doesn't belong to it"},
+		{"id":"c8279cf529640f38","fromNode":"41b454741a1bea39","fromSide":"right","toNode":"2b69795c1ec95390","toSide":"left"},
+		{"id":"35821b46f63f25fc","fromNode":"53fedb52fef90f96","fromSide":"top","toNode":"aecfb08453236b28","toSide":"bottom","color":"4","label":"makes an ARP request to learn  PC2's MAC address"},
+		{"id":"49eeca86c76eaae3","fromNode":"2b69795c1ec95390","fromSide":"top","toNode":"184e6d5c4668f11f","toSide":"bottom","color":"4","label":"switch receives the response and sends it to PC1"},
+		{"id":"595433bc0252f3e6","fromNode":"2b69795c1ec95390","fromSide":"bottom","toNode":"587f2d443b9de99e","toSide":"top","label":"Swiche's CAM table updated\n\n"},
+		{"id":"dd429907a5d8ba1f","fromNode":"2b69795c1ec95390","fromSide":"right","toNode":"b389ae3b45dea237","toSide":"left"},
+		{"id":"5b3d4094699adbdd","fromNode":"b389ae3b45dea237","fromSide":"top","toNode":"67a7d3887e730273","toSide":"bottom","color":"4","label":"PC1 receives PC3's MAC address"}
+	]
+}
