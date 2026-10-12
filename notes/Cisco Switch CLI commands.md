@@ -18,8 +18,6 @@ Changes settings for a specified port.
 Enables the Access Mode for the specified range of ports.
 ###### `switchport access vlan 10`
 Binds the access ports specifically to VLAN 10.Any untagged frame coming into this port gets assigned to VLAN 10 inside the switches.
-<<<<<<< HEAD
 ###### `show running-config interface [Interface Name]`
 Shows the configuration for specified interface.
-=======
->>>>>>> e868d5e2e019976b6574f8f8a4918ba7a1d592b9
+
