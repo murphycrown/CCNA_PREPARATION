@@ -1,0 +1,440 @@
+{
+  "main": {
+    "id": "adf9a82bcb11aba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9872e2cbcd8f36d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8df34b2853c1c70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interfaces and Cables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interfaces and Cables"
+            }
+          },
+          {
+            "id": "e9d2f0a0b0bf46e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STP (Spanning Tree Protocol).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STP (Spanning Tree Protocol)"
+            }
+          },
+          {
+            "id": "4b1cec57619821ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STP (Spanning Tree Protocol).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STP (Spanning Tree Protocol)"
+            }
+          },
+          {
+            "id": "040d06b299e5ed16",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SWICH_ARP_ICMP_FLOW.canvas",
+                "viewState": {
+                  "x": 1474.9481584987388,
+                  "y": 177.07073580676254,
+                  "zoom": -2.269929053964819
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "SWICH_ARP_ICMP_FLOW"
+            }
+          },
+          {
+            "id": "8d42241eff397abe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STP (Spanning Tree Protocol).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STP (Spanning Tree Protocol)"
+            }
+          },
+          {
+            "id": "27a2c5207951ba15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STP (Spanning Tree Protocol).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STP (Spanning Tree Protocol)"
+            }
+          },
+          {
+            "id": "c171910bcd8ce4b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VLAN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VLAN"
+            }
+          },
+          {
+            "id": "3d9cb80686f7b84f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STP (Spanning Tree Protocol).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STP (Spanning Tree Protocol)"
+            }
+          },
+          {
+            "id": "b069c725f0503e08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ARP protocol.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ARP protocol"
+            }
+          },
+          {
+            "id": "f66cbe9beb6706e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Point to Point connection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Point to Point connection"
+            }
+          },
+          {
+            "id": "05058ee4ec18338a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ethernet LAN Switching.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ethernet LAN Switching"
+            }
+          },
+          {
+            "id": "014bb6351754538b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cisco IOS CLI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cisco IOS CLI"
+            }
+          },
+          {
+            "id": "702da98ec3de0d19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Switch configuration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Switch configuration"
+            }
+          },
+          {
+            "id": "be6bb428e53c5fb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collisions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Collisions"
+            }
+          },
+          {
+            "id": "305190606fb21bb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Subnetting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Subnetting"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da728d69ae009029",
+    "type": "split",
+    "children": [
+      {
+        "id": "929c69093e125516",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f667c9d2deeb1854",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1bc019c9a86462b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "059263f8a75e648e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1468a8fc46708a63",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ded500ea28753f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b6055551034bdfb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d33be4d47ee51f6e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d278435e4e9b43fb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5764cff3b29c907d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3ff56d367294f19a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "27a2c5207951ba15",
+  "lastOpenFiles": [
+    "Images/STP/stp_port_settings.png",
+    "Images/STP/spanning_tree_vlan_1_root_secondary.png",
+    "STP (Spanning Tree Protocol).md",
+    "Images/STP/spanning_tree_vlan_1_root_primary.png",
+    "Images/STP/spanning_tree_mode.png",
+    "STP toolkit.md",
+    "Images/STP/enable_bpdu_guard_disabled_port.png",
+    "Images/STP/stp_bpdu_guard_disable_ports.png",
+    "Images/STP/stp_bpdu_guard.png",
+    "Images/STP/stp_portfast.png",
+    "Images/STP/show_spanning_tree_summary.png",
+    "Pasted image 20261007192139.png",
+    "SWICH_ARP_ICMP_FLOW.canvas",
+    "Images/STP/show_spanning_tree.png",
+    "Interfaces and Cables.md",
+    "Ethernet LAN Switching.md",
+    "STP conf.md",
+    "Untitled.md",
+    "Images/STP/Unconfirmed 156502.crdownload",
+    "Images/STP",
+    "VLAN.md",
+    "DTP and VTP.md",
+    "ARP_ICMP_FLOW.canvas",
+    "Images/DTP and VTP",
+    "Subnetting.md",
+    "IEEE 802.1Q.md",
+    "IPv4 addressing.md",
+    "Layer3 (Multilayer) Switches.md",
+    "VLAN_ARP_FLOW.canvas",
+    "DTP Protocol.md",
+    "Switch configuration.md",
+    "Images/IEEE802.1Q/Unconfirmed 970116.crdownload",
+    "Images/IEEE802.1Q",
+    "ARP protocol.md",
+    "Images/DTP",
+    "Images/VLAN",
+    "Collisions.md",
+    "Cisco Switch CLI commands.md",
+    "2.md",
+    "Images/Switch configuration",
+    "Cisco IOS CLI.md",
+    "Point to Point connection.md",
+    "Images/MAC Addresses",
+    "Images/SWITCHES",
+    "putty.org.md",
+    "Welcome.md"
+  ]
+}
