@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"1875e5f400a87059","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_4.png","x":2596,"y":-238,"width":307,"height":399},
+		{"id":"6a290fd40cf0c40a","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_5.png","x":3593,"y":-239,"width":328,"height":400},
+		{"id":"0004cc2e38809b5a","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_5_outbound_PDU_details.png","x":3436,"y":600,"width":642,"height":573},
+		{"id":"8c0daa0ea34263d5","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_6.png","x":4719,"y":-239,"width":330,"height":400},
+		{"id":"7c2b09083bad1319","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_7.png","x":5808,"y":-239,"width":346,"height":400},
+		{"id":"8f2470c8cea85b08","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_1.png","x":-1248,"y":-239,"width":354,"height":400},
+		{"id":"598facc68e921d6b","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_2.png","x":54,"y":-239,"width":359,"height":400},
+		{"id":"12d8bfdbd855fc9b","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_2_outbound_PDU_details.png","x":-56,"y":646,"width":579,"height":527},
+		{"id":"faa29d2628fd96d8","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_2_green_envelope.png","x":-56,"y":-980,"width":543,"height":286},
+		{"id":"44152ea351d7b363","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_1_green_envelope.png","x":-1298,"y":-958,"width":455,"height":286},
+		{"id":"918f0fe73064af82","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_4_green_envelope.png","x":2504,"y":-980,"width":492,"height":286},
+		{"id":"80631b8e2e3d8b2f","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_5_green_envelope.png","x":3527,"y":-980,"width":461,"height":286},
+		{"id":"1120a2c63c39a643","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_6_green_envelope.png","x":4667,"y":-980,"width":435,"height":286},
+		{"id":"3685d6dc0bca163f","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_7_green_envelope.png","x":5744,"y":-980,"width":474,"height":286,"color":"4"},
+		{"id":"9dc051918c5a51b7","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_3.png","x":1523,"y":-239,"width":329,"height":400},
+		{"id":"d57150693ae473dc","type":"file","file":"Images/VLAN/VLAN_ARP_FLOW_step_3_green_envelope.png","x":1450,"y":-980,"width":476,"height":286}
+	],
+	"edges":[
+		{"id":"a9a4e55bd0a7af74","fromNode":"8f2470c8cea85b08","fromSide":"top","toNode":"44152ea351d7b363","toSide":"bottom","color":"4","label":"PC1 prepares an ARP request to send to Switch0"},
+		{"id":"467be959508150db","fromNode":"8f2470c8cea85b08","fromSide":"right","toNode":"598facc68e921d6b","toSide":"left"},
+		{"id":"07533a0cf01f9c33","fromNode":"598facc68e921d6b","fromSide":"top","toNode":"faa29d2628fd96d8","toSide":"bottom","color":"4","label":"The Switch floods the frame to all of its ports in the same VLAN except the receiving port."},
+		{"id":"708536ccbc9e6a13","fromNode":"598facc68e921d6b","fromSide":"right","toNode":"9dc051918c5a51b7","toSide":"left","label":"sends the frame to Switch1"},
+		{"id":"cce420e96ade7956","fromNode":"9dc051918c5a51b7","fromSide":"top","toNode":"d57150693ae473dc","toSide":"bottom","color":"4","label":"Switch prepares a broadcast request to send all ports in the same VLAN except the receiving port."},
+		{"id":"03dca42df0c07582","fromNode":"12d8bfdbd855fc9b","fromSide":"top","toNode":"598facc68e921d6b","toSide":"bottom","color":"6","label":"Switch uses IEEE 802.1Q protocol to create a tagged frame to define VLAN 10.\nTCI: 0X00a which means 10 in decimal."},
+		{"id":"451a92c9733c6a4c","fromNode":"9dc051918c5a51b7","fromSide":"right","toNode":"1875e5f400a87059","toSide":"left"},
+		{"id":"8870068945aec0cb","fromNode":"1875e5f400a87059","fromSide":"top","toNode":"918f0fe73064af82","toSide":"bottom","color":"4","label":"PC2 receives an ARP request and sends back its MAC address"},
+		{"id":"19c897bed128a87e","fromNode":"1875e5f400a87059","fromSide":"right","toNode":"6a290fd40cf0c40a","toSide":"left"},
+		{"id":"ac74144752e37acc","fromNode":"6a290fd40cf0c40a","fromSide":"top","toNode":"80631b8e2e3d8b2f","toSide":"bottom","color":"4","label":"Switch1 prepares to send the frame through the trunk link to Switch0"},
+		{"id":"feb6b4a62a3bbfa1","fromNode":"0004cc2e38809b5a","fromSide":"top","toNode":"6a290fd40cf0c40a","toSide":"bottom","color":"6","label":"Switch uses IEEE 802.1Q protocol to create a Dot1q (tagged frame) to define VLAN 10.\nTCI: 0X00a which means 10 in decimal."},
+		{"id":"4a1112a687f3eeca","fromNode":"6a290fd40cf0c40a","fromSide":"right","toNode":"8c0daa0ea34263d5","toSide":"left"},
+		{"id":"2c67bf4fd7715176","fromNode":"8c0daa0ea34263d5","fromSide":"top","toNode":"1120a2c63c39a643","toSide":"bottom","color":"4","label":"Switch0 prepares a frame to send to PC1"},
+		{"id":"19d63294a952ccfc","fromNode":"8c0daa0ea34263d5","fromSide":"right","toNode":"7c2b09083bad1319","toSide":"left"},
+		{"id":"bea05832b92680d6","fromNode":"7c2b09083bad1319","fromSide":"top","toNode":"3685d6dc0bca163f","toSide":"bottom","color":"4","label":"PC1 receives the PC2's MAC address."}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"0a65b8ef610de3da","type":"file","file":"Images/ARP/ARP_step_1.png","x":200,"y":-240,"width":608,"height":218},
+		{"id":"b401e67cb4f08028","type":"file","file":"Images/ARP/ARP_step_1_green_envelope.png","x":-168,"y":-1180,"width":680,"height":453,"color":"4"},
+		{"id":"56ac409ce720a072","type":"file","file":"Images/ARP/ARP_step_1_blue_envelope.png","x":-208,"y":560,"width":673,"height":460,"color":"#3f1fe0"},
+		{"id":"e205627eb4c79d90","type":"file","file":"Images/ARP/ARP_step_3_green_envelope.png","x":2668,"y":-1231,"width":793,"height":474},
+		{"id":"88429082e0360893","type":"file","file":"Images/ARP/ARP_step_2.png","x":1360,"y":-240,"width":700,"height":218},
+		{"id":"a3cea42be74b35b4","type":"file","file":"Images/ARP/ARP_step_3.png","x":2721,"y":-240,"width":689,"height":218},
+		{"id":"75cebbc56ba56560","type":"file","file":"Images/ICMP/ICMP_step_2.png","x":3953,"y":-240,"width":590,"height":218},
+		{"id":"d287274bdfd1efca","type":"file","file":"Images/ICMP/ICMP_step_3.png","x":5128,"y":-240,"width":668,"height":218},
+		{"id":"ea1a009aa92e2531","type":"file","file":"Images/ARP/ARP_step_2_green_envelope.png","x":1325,"y":-1231,"width":771,"height":453,"color":"4"},
+		{"id":"c116ade5adedac04","type":"file","file":"Images/ICMP/ICMP_step_1_blue_envelope.png","x":2669,"y":546,"width":764,"height":474,"color":"4"},
+		{"id":"5700968bd9f30ccb","type":"file","file":"Images/ICMP/ICMP_step_2_blue_envelope.png","x":3907,"y":546,"width":816,"height":474},
+		{"id":"15c009bdf068ad0c","type":"file","file":"Images/ICMP/ICMP_step3_blue_envelope.png","x":5164,"y":546,"width":646,"height":474}
+	],
+	"edges":[
+		{"id":"0c9ff7a1cf5f6f0b","fromNode":"b401e67cb4f08028","fromSide":"bottom","toNode":"0a65b8ef610de3da","toSide":"top","color":"4","label":"Our device broadcasts an ARP request to every device on the network"},
+		{"id":"652893e3a77d37a6","fromNode":"0a65b8ef610de3da","fromSide":"bottom","toNode":"56ac409ce720a072","toSide":"top","color":"#201192","label":"ICMP request is waiting for the MAC address"},
+		{"id":"5dc978ada9718e9e","fromNode":"0a65b8ef610de3da","fromSide":"right","toNode":"88429082e0360893","toSide":"left"},
+		{"id":"8148f398aff00dd2","fromNode":"ea1a009aa92e2531","fromSide":"bottom","toNode":"88429082e0360893","toSide":"top","color":"4","label":"Destination device receives our request and constructs a frame to unicast  its own MAC address"},
+		{"id":"fc6f57e0ff0a8e63","fromNode":"88429082e0360893","fromSide":"right","toNode":"a3cea42be74b35b4","toSide":"left"},
+		{"id":"308689395a37e7e0","fromNode":"e205627eb4c79d90","fromSide":"bottom","toNode":"a3cea42be74b35b4","toSide":"top","color":"4","label":"Our device successfully received the MAC address"},
+		{"id":"f4051bf6460b8a00","fromNode":"a3cea42be74b35b4","fromSide":"bottom","toNode":"c116ade5adedac04","toSide":"top"},
+		{"id":"8dab497af4227291","fromNode":"a3cea42be74b35b4","fromSide":"right","toNode":"75cebbc56ba56560","toSide":"left"},
+		{"id":"216b0b55dec4b0b6","fromNode":"75cebbc56ba56560","fromSide":"bottom","toNode":"5700968bd9f30ccb","toSide":"top","color":"4","label":"Destination devices receives the ICMP request and constructs a response."},
+		{"id":"68cb519bfbb35c19","fromNode":"75cebbc56ba56560","fromSide":"right","toNode":"d287274bdfd1efca","toSide":"left"},
+		{"id":"69eb24e22575a766","fromNode":"15c009bdf068ad0c","fromSide":"top","toNode":"d287274bdfd1efca","toSide":"bottom","color":"4","label":"Our device successfully received the ICMP packet"},
+		{"id":"8dd7a473bae684e0","fromNode":"c116ade5adedac04","fromSide":"left","toNode":"56ac409ce720a072","toSide":"right","color":"4","label":"ARP processes takes out the waiting ICMP request from the buffer and concatenates with the destination devices's MAC address."}
+	]
+}
