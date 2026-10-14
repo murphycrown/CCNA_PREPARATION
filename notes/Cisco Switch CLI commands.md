@@ -20,3 +20,4 @@ Enables the Access Mode for the specified range of ports.
 Binds the access ports specifically to VLAN 10.Any untagged frame coming into this port gets assigned to VLAN 10 inside the switches.
 ###### `show running-config interface [Interface Name]`
 Shows the configuration for specified interface.
+
