@@ -11,13 +11,7 @@ Portfast can be enabled in an interface level.
 As seen from the output, portrast only takes effect if the port is in an access mode.
 
 - Use the `spanning-tree portfast default`  in the Global Configuration Mode to enable portfast in all access ports.
-
 - In some scenarios (like ROAS) , we might want to enable portfast on a trunk link.We can enable it  using the command `spanning-tree portfast trunk` on an interface.
-
-
-- In some scenarios (like ROAS) , we might want to enable portfast on a trunk link.We can enable it  using the command `spanning-tree portfast trunk` on an interface.
-
-
 - However, we are taking a huge risk by using portfast because if an employee change the end host with a switch he may accidentally create a Layer 2 loop.
 ## STP BPDU Guard
 
@@ -66,9 +60,3 @@ We use LOOP Guard to protect the network from loops by blocking a port if it une
 - Use `spanning-tree guard loop` to enable LOOP Guard from interface configuration mode.
 - Use `spanning-tree loopguard default` from the global configuration mode to enable it for all ports.
 - Use `spanning-tree guard none` to disable the feature from the specific port if needed.
-- Use `spanning-tree guard none` to disable the feature from the specific port if needed.
-
-BPDU Guard disables the port instantly and change its state to administratively shutdown.To enable the port again, we use the `shutdown` and `no shutdown` commands.
-
-![[enable_bpdu_guard_disabled_port.png]]
-
